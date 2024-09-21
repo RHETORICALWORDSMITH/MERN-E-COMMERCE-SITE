@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const ClothesSection = () => {
   return (
     <>
-      <div className="flex flex-col h-screen items-center justify-center bg-[url('homePics/halloweenBackground.png')] bg-cover bg-center bg-no-repeat mt-64 md:mt-0 lg:mt-0 xl:mt-0">
+      <div className="flex flex-col h-screen items-center justify-center bg-[url('/homePics/halloweenBackground.png')] bg-cover bg-center bg-no-repeat mt-64 md:mt-0 lg:mt-0 xl:mt-0">
         <h1 className="text-4xl font-bold text-black">Spooky Styles</h1>
         {/* Bento Grid Layout */}
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 p-4 max-w-6xl mx-auto">
