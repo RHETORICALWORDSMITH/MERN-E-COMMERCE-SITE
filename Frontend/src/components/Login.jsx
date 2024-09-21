@@ -28,7 +28,7 @@ const Login = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:3000/user/login",
+        "https://mern-e-commerce-site-six.vercel.app/user/login",
         userInfo
       );
       const resData = res.data;
