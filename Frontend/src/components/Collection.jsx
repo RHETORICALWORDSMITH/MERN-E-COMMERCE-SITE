@@ -196,7 +196,7 @@ const Collection = () => {
               {/* TV Container */}
               <div className="relative w-screen h-3/4 bg-black rounded-lg shadow-lg overflow-hidden mt-96">
                 {/* Screen */}
-                <div className="absolute inset-1 bg-gray-800 bg-[url(../../public/tablet-bg2.jpg)] bg-no-repeat bg-cover bg-center">
+                <div className="absolute inset-1 bg-gray-800 bg-[url(/public/tablet-bg2.jpg)] bg-no-repeat bg-cover bg-center">
                   <div className="absolute bg-black opacity-70 w-full h-screen"></div>
                   <div className="text-white text-lg">
                     {/* Interface */}
