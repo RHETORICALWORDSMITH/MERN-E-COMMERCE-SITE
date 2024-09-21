@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ActionFigureSection = () => {
   return (
-    <div className="relative flex flex-col md:flex-row justify-center items-center overflow-hidden h-screen bg-[url('../../public/homePics/battleGround.jpg')] bg-cover bg-center bg-no-repeat bg-opacity-75">
+    <div className="relative flex flex-col md:flex-row justify-center items-center overflow-hidden h-screen bg-[url('/homePics/battleGround.jpg')] bg-cover bg-center bg-no-repeat bg-opacity-75">
       {/* Background overlay */}
       <div className="absolute inset-0 bg-black opacity-70"></div>
 
