@@ -54,7 +54,8 @@ const uploadItem = async (req, res, next) => {
     res.status(200);
   } catch (error) {
     // Log the error for debugging
-    console.error("Error during file upload or saving item:", error);
+    console.log("Error during file upload or saving item:");
+    console.error(error);
 
     // Return failure response
     res.status(500);
