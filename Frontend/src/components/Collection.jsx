@@ -274,6 +274,7 @@ const Collection = () => {
                                   src={`../../public/${productType
                                     .replace(/\s+/g, "")
                                     .toLowerCase()}.gif`}
+                                  alt="img"
                                   className="h-14 cursor-pointer"
                                   onClick={() => {
                                     handleProductNavigation(productType);
