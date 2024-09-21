@@ -271,7 +271,7 @@ const Collection = () => {
                             return (
                               <div key={index} className="relative group z-10">
                                 <img
-                                  src={`../../public/${productType
+                                  src={`/${productType
                                     .replace(/\s+/g, "")
                                     .toLowerCase()}.gif`}
                                   alt="img"
