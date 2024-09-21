@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Home from "./home/Home";
 import Collections from "./collections/Collections";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -8,6 +7,8 @@ import { useAuth } from "./context/AuthProvider";
 import Cart from "./components/Cart";
 import SearchProvider from "./context/searchProvider.jsx";
 import PurchaseHistory from "./components/PurchaseHistory.jsx";
+import AddItem from "./components/AddItem";
+import AdminDashboard from "./components/AdminDashboard.jsx";
 
 function App() {
   const [authUser, setAuthUser] = useAuth();
@@ -18,8 +19,6 @@ function App() {
   return (
     <>
       <SearchProvider>
-        {/* <Home />
-      <Collection /> */}
         <div className="bg-white text-black dark:bg-slate-900 dark:text-white">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -55,6 +54,7 @@ function App() {
             />
             <Route path="/Signup" element={<Signup />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/dashboard" element={<AdminDashboard />} />
           </Routes>
           <Toaster />
         </div>
