@@ -12,7 +12,7 @@ const PurchaseHistory = () => {
   useEffect(() => {
     const getHistory = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/history/getfromDB");
+        const res = await axios.get("https://mern-e-commerce-site-six.vercel.app/history/getfromDB");
         const data = res.data;
 
         const filteredData = data.filter((item) => item.email === currEmail);
